@@ -1,12 +1,18 @@
-## Installation
+![howdy neighbor!](https://y.yarn.co/8c6d3296-edf7-4cce-aaa5-2eec2b860849_screenshot.jpg)
+
+## Hello, neighbor!
+
+The neighbor app performs CDP and LLDP discovery on Ethernet interfaces. Usage is pretty basic at this time.
+
+### Installation
 
 pip3 install -r requirements.txt
 
-## Usage
+### Usage
 
 python3 neighbor.py
 
-## Example
+### Example
 
 ```
 root@lab-infra01:~/# ./neighbor2.py | jq .
