@@ -20,7 +20,7 @@ As root, run the following:
 ### Example
 
 ```
-root@lab-infra01:~/# ./neighbor2.py | jq .
+root@lab-infra01:~/# python3 neighbor.py | jq .
 {
   "lo": {},
   "eno1": {
