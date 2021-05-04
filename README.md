@@ -6,9 +6,22 @@ The neighbor app performs CDP and LLDP discovery on Ethernet interfaces. Usage i
 
 ### Installation
 
-`pip3 install -r requirements.txt`
+```
+git clone https://github.com/busterswt/neighbor
+pip3 install -r requirements.txt
+```
+
+#### Ubuntu
+
+You may need to install scappy via apt:
+
+```
+apt install python3-scapy
+```
 
 ### Usage
+
+As root, run the following:
 
 `python3 neighbor.py`
 
