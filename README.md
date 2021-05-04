@@ -6,11 +6,11 @@ The neighbor app performs CDP and LLDP discovery on Ethernet interfaces. Usage i
 
 ### Installation
 
-pip3 install -r requirements.txt
+`pip3 install -r requirements.txt`
 
 ### Usage
 
-python3 neighbor.py
+`python3 neighbor.py`
 
 ### Example
 
